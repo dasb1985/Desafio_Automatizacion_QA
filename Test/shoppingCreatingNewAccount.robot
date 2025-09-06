@@ -6,7 +6,7 @@ Resource   ..//Resources//history_kw.resource
 
 *** Variables ***
 ${url}      https://opencart.abstracta.us/index.php?route=common/home
-${idVarPrincipal}        10
+${idVarPrincipal}        5
 
 
 *** Test Cases ***
@@ -29,6 +29,7 @@ Shopping and create new account
     Validate order has been placed
     Go to history page
     Check order
+    Logout from page
 
 #TODO 
 #REEMPLAZAR LOS SLEEP POR WAITS
