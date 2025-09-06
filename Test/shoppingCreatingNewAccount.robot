@@ -6,7 +6,7 @@ Resource   ..//Resources//history_kw.resource
 
 *** Variables ***
 ${url}      https://opencart.abstracta.us/index.php?route=common/home
-${idVarPrincipal}        5
+${idVarPrincipal}        6
 
 
 *** Test Cases ***
