@@ -6,6 +6,7 @@ Este desafio fue realizado con RobotFramework + Selenium + RPA  como librerias
 El objetivo fue cumplir el desafio con un lenguaje conocido ademas de seguir practicando 
 
 
+
 ## Installation
 
 I - Descargar Python 3.X.X desde el repositorio oficial
@@ -61,6 +62,8 @@ Para evitar esto dentro de los test existe la variable ${idVarPrincipal} la cual
 
 Dicho lo anterior, el excel se puede modificar los datos o agregar.
 
+
+
 ## Flujo
 'shoppingCreatingNewAccount'
 
@@ -84,4 +87,23 @@ Dicho lo anterior, el excel se puede modificar los datos o agregar.
 ## Optimizations
 
 Una mejora sustancial es realizar la espera de los elementos usando por ejemplo la keyword "Wait Until ", por esta vez solamente se uso la mala practica de poner Sleep  de 2 segundos.
+
+
+## FAQ
+
+#### Donde se encuentran las evidencias?
+
+Se pueden encontrar dentro de la carpeta Results
+
+#### Donde encuentro el archivo de entrada
+
+Dentro de la carpeta Data
+
+#### Algo mas que deba saber?
+
+La carpeta Results cuenta con dos archivos de reporte
+
+Log.html que muestra una vista de los test, tiempo de ejecucion, y se puede navegar destalle a detalle sobre el test
+
+report.html que nos entrega un reporte resumido del test, en este caso no se usaron tags u otros atributos para los test
 
