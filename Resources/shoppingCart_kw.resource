@@ -99,5 +99,5 @@ Write a review
 
 Go to product comparition page
     Click Element    ${comparision_lnk}
-    Scroll Element Into View    ${table_anchor_for_ScreenShoot}=
+    Scroll Element Into View    ${table_anchor_for_ScreenShoot}
     Capture Page Screenshot       selenium-comparition-table-{index}.png

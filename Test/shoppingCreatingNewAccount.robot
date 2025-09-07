@@ -10,7 +10,7 @@ Documentation     El siguiente test comenzara cargando la pagina, para posterior
 ...    La Variable  idVarPrincipal  nos permite iterar sobre el archivo excel para buscar ese ID e ingresarlo como cuenta nueva          
 
 *** Variables ***
-${idVarPrincipal}        6
+${idVarPrincipal}        7
 
 
 *** Test Cases ***

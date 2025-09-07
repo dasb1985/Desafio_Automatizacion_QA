@@ -25,7 +25,7 @@ IV - En una consola CMD parado en la raiz del repositorio ejecutar el siguiente 
 Ir al directorio del proyecto
 
 ```bash
-  cd my-project
+  cd Desafio_Automatizacion_QA
 ```
 
 Ejecutar el siguiente comando el cual ejecutara el test dejando los resultados en la carpeta Results
@@ -39,6 +39,11 @@ EL siguiente comando ejecutara el script con los requerimientos para los puntos 
 ```bash
    robot.exe -d Results .\Test\puntosExtrasTest.robot
 ```
+
+```bash
+   robot.exe -d Results .\Test\puntosExtrasTest_II.robot
+```
+
 
 Si se desea ejecutar todos los scripts basta con ejecutar
 ```bash
