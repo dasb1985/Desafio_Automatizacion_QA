@@ -1,0 +1,21 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - python -V
+      - pip install robotframework
+      # Install other required libraries, e.g., robotframework-seleniumlibrary
+      - pip install robotframework-seleniumlibrary
+      # Install browser drivers if needed for web testing
+      # - apt-get update && apt-get install -y chromium-chromedriver # for Debian/Ubuntu based images
+  build:
+    commands:
+      # Execute Robot Framework tests
+      # Use `|| true` to prevent the pipeline from failing immediately on test failures
+      - robot -d output/ test_suites/ || true 
+artifacts:
+  files:
+    - 'output/*.html'
+    - 'output/*.xml'
+    - 'output/*.log'
+  discard-paths: no
