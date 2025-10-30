@@ -9,6 +9,8 @@ phases:
       - pip install -r ./Resources/requirements.txt
       # Install browser drivers if needed for web testing
       # - apt-get update && apt-get install -y chromium-chromedriver # for Debian/Ubuntu based images
+      - pwd
+      - ls -ltr
   build:
     commands:
       # Execute Robot Framework tests
